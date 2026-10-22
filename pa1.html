@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABES Engineering College Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        .highlight {
+            background-color: yellow;
+            font-size: 24px;
+            font-weight: bold;
+            padding: 5px 10px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            background-color: #fff;
+        }
+        th, td {
+            border: 2px solid #333;
+            padding: 12px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .nested-table {
+            width: 100%;
+            margin: 0;
+        }
+        .nested-table th, .nested-table td {
+            border: 1px solid #666;
+            padding: 6px;
+        }
+        .nested-table th {
+            background-color: #e6e6e6;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Highlighted Title -->
+    <div class="highlight">abes engineering college</div>
+
+    <!-- Main Table with 3 Rows of Data -->
+    <table>
+        <thead>
+            <tr>
+                <th>Serial No.</th>
+                <th>Name</th>
+                <th>Branch</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1 @</td>
+                <td>Ismit Singh</td>
+                <td>
+                    <!-- Nested Table inside Branch Column -->
+                    <table class="nested-table">
+                        <thead>
+                            <tr>
+                                <th>Code</th>
+                                <th>Specialization</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>CSE</td>
+                                <td>Core AI</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>2 &lt; &gt;</td>
+                <td>arshita</td>
+                <td>
+                    <!-- Nested Table inside Branch Column -->
+                    <table class="nested-table">
+                        <thead>
+                            <tr>
+                                <th>Code</th>
+                                <th>Specialization</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>ECE</td>
+                                <td>Embedded Systems</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>3 = !</td>
+                <td>jayant dhahiya</td>
+                <td>
+                    <!-- Nested Table inside Branch Column -->
+                    <table class="nested-table">
+                        <thead>
+                            <tr>
+                                <th>Code</th>
+                                <th>Specialization</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>ME</td>
+                                <td>Robotics</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
